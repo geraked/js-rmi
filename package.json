@@ -1,0 +1,36 @@
+{
+    "name": "rmi",
+    "version": "1.0.0",
+    "description": "Implementation of RMI in Node.js",
+    "keywords": [
+        "rmi",
+        "remote",
+        "method",
+        "invocation",
+        "rpc",
+        "procedure",
+        "call",
+        "java",
+        "javascript",
+        "amirkabir",
+        "university",
+        "distributed",
+        "systems",
+        "middleware",
+        "nodejs"
+    ],
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "ex-server": "start powershell -noexit \"echo Server`n; node example/server/main.js\"",
+        "ex-client": "start powershell -noexit \"echo Client`n; node example/client/main.js\"",
+        "example": "npm run ex-server && npm run ex-client"
+    },
+    "author": "Rabist",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/geraked/js-rmi.git"
+    },
+    "homepage": "https://github.com/geraked/js-rmi",
+    "license": "MIT"
+}
